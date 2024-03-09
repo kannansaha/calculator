@@ -1,0 +1,46 @@
+.all-items{
+    margin-top: 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.calculator{
+    width:250px;
+    background-color:rgb(104, 233, 233);
+    border-radius: 5px;
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+h1{
+    color:white;
+    margin: 10px;
+   
+                
+}
+#display{
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: end;
+    margin:5px;
+    box-shadow: inset -5px -5px 12px;
+
+}
+#display:hover{
+    background-color: aqua;
+}
+.btn{
+    background-color: aliceblue;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:none;
+    margin:4px;
+    box-shadow: inset -5px -5px 12px;
+}
+.btn:hover{
+    background-color: rgb(124, 141, 141);
+    
+}
